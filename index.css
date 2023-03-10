@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
 }
 
 
@@ -26,6 +27,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.list_item:hover{
+    color: gray;
 }
 
 nav {
@@ -232,7 +238,17 @@ nav {
     border-radius: 5px;
 }
 
-.padding-box{
+
+.cart_box:hover {
+    transition: .7s;
+    box-shadow: 1px 1px 30px gray;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.padding-box {
     padding: 10px;
 }
 
@@ -241,18 +257,69 @@ nav {
     border-radius: 5px 5px 0px 0px;
     height: 10px;
     width: 100%;
- 
+
 }
 
-.second{
+.second {
     background: #2389CA;
 }
 
-.thirt{
+.thirt {
     background: #ED6E44;
 }
 
 
-section{
+section {
     margin-top: 60px;
+}
+.vactor {
+    background: #FF6E3C;
+    padding: 30px 50px 20px 60px;
+    transform: skewX(-20deg);
+    border-radius: 20px;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.text-vector {
+    transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.section2 {
+    margin-top: 56px;
+    padding-top: 46px;
+    padding-bottom: 23px;
+    background: #fff;
+}
+
+
+.text-all-vector {
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1F2630;
+}
+
+.vector-two {
+    height: 152px;
+    background: #FFC50B;
+    transform: skewX(-20deg);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
